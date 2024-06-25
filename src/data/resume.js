@@ -1,31 +1,9 @@
-const studies = [
-  {
-    id: 1,
-    title: 'Ingeniería en Informática',
-    institution: 'Universidad Nacional de La Matanza',
-    date: '2016 - Presente',
-  },
-  {
-    id: 2,
-    title: 'Técnico en Informática',
-    institution: 'Escuela de Educación Técnica N° 4',
-    date: '2010 - 2015',
-  },
+export const experiences = [
+  { id: 1, title: 'Job Title One', company: 'Company One', date: '2020-2021' },
+  // Otras experiencias...
 ];
 
-const experiences = [
-  {
-    id: 1,
-    title: 'Desarrollador Frontend',
-    company: 'Tecso',
-    date: '2021 - Presente',
-  },
-  {
-    id: 2,
-    title: 'Desarrollador Fullstack',
-    company: 'Freelance',
-    date: '2019 - 2021',
-  },
+export const studies = [
+  { id: 1, title: 'Degree One', institution: 'Institution One', date: '2016-2020' },
+  // Otros estudios...
 ];
-
-export { studies, experiences };
